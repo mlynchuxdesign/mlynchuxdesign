@@ -92,5 +92,5 @@ div&:after{
 }
 /* tabing numbered and bulleted list items in from the headline <h3> of article. using &: to turn off before and afters */
 
-a:link{color: #fcfcfc;} 
+a:link{color: #ede9e9;} 
 /* making email link the same color as pairing text, color was originally neon blue*/  
