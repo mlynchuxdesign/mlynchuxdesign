@@ -4,36 +4,36 @@ body{
   padding: 30px
 }
 
-header{
-  height: 250px;
-  padding: 20px;
-}
 
-nav{
-  float: right;
-  width: 50%;
+
+.name, h1, h3{
+ 
+  font-family: Futura;
+  font-weight: bold;
   text-align: right;
-  font-size: 24px;
-  font-family: futura;
-  margin: 10px;
+  padding-right: 20px;
+  margin-top: 60px;
+
 }
 
-header > img{
-  border: 10px solid #ede9e9;
-  padding: 10px 10px;
+body > img{
+  width: 200px;
+  border: 6px solid #ede9e9;
+  padding: 6px;
+  border-radius: 120px;
+  float: left;
+  margin-left: 20px;
   }    /* add border to photo*/
-
-.image-circle{
-  border-radius: 50%;
-}      /* turns photo and frame into a circle, image has to be square or it'll be an egg*/
+      /* turns photo and frame into a circle, image has to be square or it'll be an egg*/
 
 .box{
+  margin-top: 60px;
   text-align: center;
   font-family: Arial;
   background: linear-gradient(#74819a ,#000);
   color: #ede9e9;
   font-size: 26px;
-  padding: 20px;
+ padding: 20px;
 }
 
 section > img{
@@ -95,3 +95,4 @@ div&:after{
 
 a:link{color: #ede9e9;} 
 /* making email link the same color as pairing text, color was originally neon blue*/  
+
