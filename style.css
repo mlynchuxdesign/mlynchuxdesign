@@ -6,14 +6,11 @@ body{
 
 
 
-.name, h1, h3{
- 
+.name{
   font-family: Futura;
-  font-weight: bold;
   text-align: right;
-  padding-right: 20px;
-  margin-top: 60px;
-
+  padding-right: 60px;
+  
 }
 
 body > img{
@@ -22,12 +19,12 @@ body > img{
   padding: 6px;
   border-radius: 120px;
   float: left;
-  margin-left: 20px;
+  margin: 40px;
   }    /* add border to photo*/
       /* turns photo and frame into a circle, image has to be square or it'll be an egg*/
 
 .box{
-  margin-top: 60px;
+  margin-top: 132px;
   text-align: center;
   font-family: Arial;
   background: linear-gradient(#74819a ,#000);
