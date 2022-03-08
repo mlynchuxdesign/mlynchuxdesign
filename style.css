@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(#3bba9c, #080222);
-  margin: 20px;
-  padding: 30px;
+  background: linear-gradient(#3bba9c, #418147, #0b0722);
+  margin: 30px;
+  padding: 20px;
 }
 header {
   margin-top: 70px;
@@ -9,6 +9,7 @@ header {
 .name {
   font-family: Futura;
   text-align: right;
+  margin: 10px;
 }
 
 body> img {
