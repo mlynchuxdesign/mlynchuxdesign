@@ -11,7 +11,7 @@ header {
   text-align: right;
 }
 
-img {
+body> img {
   width: 200px;
   border: 6px solid #ede9e9;
   padding: 6px;
