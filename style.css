@@ -1,95 +1,86 @@
-body{
-  background: linear-gradient(#f92f91, #080222);
+body {
+  background: linear-gradient(#3bba9c, #080222);
   margin: 20px;
-  padding: 30px
+  padding: 30px;
 }
-
-
-
-.name{
+header {
+  margin-top: 70px;
+}
+.name {
   font-family: Futura;
   text-align: right;
-  float: right;
-  
 }
 
-body > img{
+img {
   width: 200px;
   border: 6px solid #ede9e9;
   padding: 6px;
   border-radius: 120px;
   float: left;
-  margin: 40px;
-  }    /* add border to photo*/
-      /* turns photo and frame into a circle, image has to be square or it'll be an egg*/
+  margin-right: 100px;
+} /* add border to photo*/
+/* turns photo and frame into a circle, image has to be square or it'll be an egg*/
 
-.box{
-  margin-top: 132px;
+.box {
+  margin-top: 100px;
   text-align: center;
   font-family: Arial;
-  background: linear-gradient(#74819a ,#000);
+  background: linear-gradient(#74819a, #000);
   color: #ede9e9;
   font-size: 26px;
- padding: 20px;
+  padding: 20px;
 }
 
-section > img{
+section > img {
   margin: 20px;
-}/* adds space between images that are placed in a row*/
+} /* adds space between images that are placed in a row*/
 
-.round{
+.round {
   border-radius: 10px;
 } /*round the corners of the boxes*/
 
-.image-rounded{
+.image-rounded {
   border-radius: 10%;
-}/* round off corners of images*/
+} /* round off corners of images*/
 
-.box2{
+.box2 {
   font-family: Didot;
   background-color: #ede9e9;
   color: #000000;
   font-size: 20px;
   padding: 20px;
   margin: 20px;
-  }
+}
 
-.box3{
+.box3 {
   text-align: left;
   font-family: Didot;
   background-color: #000000;
   color: #ede9e9;
   font-size: 20px;
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;
 }
 
-article{
+article {
   color: #ede9e9;
   text-align: center;
   font-family: Didot;
   padding: 20px;
   margin: 20px;
-  }
+}
 
-footer{
+footer {
   padding-left: 120px;
   padding-right: 120px;
   font-family: Didot;
   text-align: center;
   color: #ede9e9;
-  }
-
-
-div&:before{
-  content:"start";
 }
 
-div&:after{
-  content:"stop"
-}
 /* tabing numbered and bulleted list items in from the headline <h3> of article. using &: to turn off before and afters */
 
-a:link{color: #ede9e9;} 
-/* making email link the same color as pairing text, color was originally neon blue*/  
-
+a:link {
+  color: #ede9e9;
+}
+/* making email link the same color as pairing text, color was originally neon blue*/
