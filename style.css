@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(#3BBA9C, #080222);
+  background: linear-gradient(#f92f91, #080222);
   margin: 20px;
   padding: 30px
 }
@@ -9,7 +9,7 @@ body{
 .name{
   font-family: Futura;
   text-align: right;
-  padding-right: 60px;
+  float: right;
   
 }
 
