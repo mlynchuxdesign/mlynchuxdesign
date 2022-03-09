@@ -5,8 +5,8 @@ body {
 }
 
 header {
- height: 100px;
- padding-top: 6px;
+  height: 100px;
+  padding-top: 6px;
 }
 
 .name {
@@ -15,11 +15,11 @@ header {
   margin-right: 30px;
   padding-right: 20px;
 }
-.left{
+.left {
   text-align: left;
 }
 
-body >img {
+body > img {
   margin-left: 20px;
   border: 6px solid #ede9e9;
   padding: 6px;
@@ -36,8 +36,6 @@ body >img {
   font-size: 20px;
   padding: 20px;
 }
-
-
 
 .round {
   border-radius: 10px;
@@ -66,7 +64,6 @@ body >img {
   margin: 20px;
 }
 
-
 .box4 {
   text-align: left;
   font-family: Didot;
@@ -77,8 +74,6 @@ body >img {
   margin: 20px;
 }
 
-
-
 footer {
   padding-left: 120px;
   padding-right: 120px;
@@ -86,16 +81,20 @@ footer {
   text-align: center;
   color: #ede9e9;
 }
-h4{
-  text-align: center; color: #ede9e9;
+/*padding left & right is to have the horizontal ruler scale down from one above*/
+h4 {
+  text-align: center;
+  color: #ede9e9;
 }
 /* tabing numbered and bulleted list items in from the headline <h3> of article. using &: to turn off before and afters */
 
 a:link {
   color: #ede9e9;
 }
-a:hover{
+a:hover {
   color: #fa0000;
 }
-
-/* making email link the same color as pairing text, color was originally neon blue*/
+a:active {
+  color: #3dff54;
+}
+/* making email link the same color as pairing text, color was originally neon blue. turns red when you put cursor over it, green when you click on it */
