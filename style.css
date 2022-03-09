@@ -84,4 +84,8 @@ footer {
 a:link {
   color: #ede9e9;
 }
+a:hover{
+  color: #fa0000;
+}
+
 /* making email link the same color as pairing text, color was originally neon blue*/
