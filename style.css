@@ -3,36 +3,28 @@ body {
   margin: 30px;
   padding: 20px;
 }
-
+/*gives entire web page a gradient between three color values*/
 header {
   height: 100px;
   padding-top: 6px;
 }
-
-.name {
- 
-  font-family: Futura;
-  text-align: right;
-  margin-right: 20px;
-  padding-right: 20px;
-}
+/*provides extra border to the top of page*/ 
 .left {
   text-align: left;
 }
+/*place certain text to the left*/
 .right{
   text-align: right;
 }
-
+/*place certain text to the right*/
 header > img {
   float: left;
-  margin-left: 30px;
+  margin-left: 38px;
   margin-bottom: 15px;
   border: 6px solid #ede9e9;
   padding: 6px;
   border-radius: 120px;
-} /* add border to photo*/
-/* turns photo and frame into a circle, image has to be square or it'll be an egg*/
-
+} /* add border to photo, turns photo and frame into a circle, image has to be square or it'll be an egg spaces image from text and centers itself while on mobile view*/
 .box {
   margin-top: 10px;
   text-align: center;
@@ -42,15 +34,13 @@ header > img {
   font-size: 20px;
   padding: 20px;
 }
-
+/*creates container for text and photos*/
 .round {
   border-radius: 10px;
-} /*round the corners of the boxes*/
-
+} /*round the corners of the container*/
 .image-rounded {
   border-radius: 10%;
 } /* round off corners of images*/
-
 .box2 {
   font-family: Didot;
   text-align: center;
@@ -60,16 +50,7 @@ header > img {
   padding: 20px;
   margin: 20px;
 }
-
-/*.box3 {
-  font-family: Didot;
-  background-color: #ede9e9;
-  color: #000000;
-  font-size: 20px;
-  padding: 20px;
-  margin: 20px;
-}*/
-
+/*creates container for text and photos*/
 .box3 {
   text-align: left;
   font-family: Didot;
@@ -79,27 +60,19 @@ header > img {
   padding: 20px;
   margin: 40px;
 }
-
+/*  creates container for text*/
 hr{
   height: 1px solid;
   margin: 60px;
 }
-
+/*scales down the length of the horizontal rule*/
 footer, h4 {
   margin: 50px;
   font-family: Didot;
   text-align: center;
   color: #ede9e9;
 }
-/*padding left & right is to have the horizontal ruler scale down from one above
-h4 {
-  font-family: didot;
-  text-align: center;
-  color: #ede9e9;
-  margin: 40;
-}*/
-/* tabing numbered and bulleted list items in from the headline <h3> of article. using &: to turn off before and afters */
-
+/*   */
 a:link {
   color: #ede9e9;
 }
